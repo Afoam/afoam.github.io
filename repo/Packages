@@ -14,6 +14,134 @@ Description: The iOS 11 app switcher for iOS 10 iPhones.
 Author: ArtikusHG
 Name: SwitcherXI
 
+Package: com.creaturecoding.shuffle
+Version: 1.6.0
+Architecture: iphoneos-arm
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 2364
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | org.coolstar.libhooker | mobilesubstrate
+Depends: com.creaturecoding.libcspreferences
+Conflicts: com.cpdigitaldarkroom.placeholder
+Replaces: com.cpdigitaldarkroom.placeholder
+Filename: Files/shuffle/com.creaturecoding.shuffle_1.6.0.deb
+Size: 330570
+MD5sum: fe48e2725e9ed5f04984a52718335bca
+SHA1: 62fdbff1a23554d7862b635a7dea05c86696d217
+SHA256: 6633c7e8168c9cce1bb8a3fea406069116ccf1058f80b01ad7fd95231ed5b947
+Section: Tweaks
+Homepage: https://creaturecoding.com/
+Description: Organize your settings
+Tag: purpose::extension, compatible_min::ios10
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=shuffle
+Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
+Name: Shuffle
+Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=shuffle
+
+Package: com.mirac.kindastock
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Mirac <ozd.mirac@gmail.com>
+Depends: com.spark.snowboard | net.dodtweaks.ithemer | com.anemonetheming.anemone | com.artikus.neonboard | winterboard
+Filename: Files/kindastock/com.mirac.kindaStock_1.0.1.deb
+Size: 5367244
+MD5sum: d509a22561ccf066eb57fccf38d48e5a
+SHA1: b9ad8b332c69baaab359ecffc619a8115da57493
+SHA256: fba2f688ed757e4e83f6637bd45567d7ee01ca5dc9cf56f1798a69dc30802b0b
+Section: Themes
+Description: A theme for iOS. Clean, familiar, yet new.
+Author: Mirac <ozd.mirac@gmail.com>
+Name: kindaStock
+
+Package: com.spark.snowboard
+Version: 1.4.7-Beta4
+Architecture: iphoneos-arm
+Maintainer: Spark
+Installed-Size: 4892
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Filename: Files/snowboard/com.spark.snowboard_1.4.7-Beta4.deb
+Size: 1565784
+MD5sum: 30b16a9c544aea0805f55f1111b4e0aa
+SHA1: 01d0c4400516bc326f76705eac28cc5bc9da859c
+SHA256: 3aa25faa61fc8939f950af1aa3b8de1f7493ee6e2837ab11fa3318a526af30b4
+Section: Tweaks
+Description: Snowboard theming engine
+Author: Spark & Dennis D. Bednarz
+Name: SnowBoard
+
+Package: me.conorthedev.dotto+
+Version: 1.0.6
+Architecture: iphoneos-arm
+Maintainer: ConorTheDev <conorthedev@gmail.com>
+Installed-Size: 592
+Depends: mobilesubstrate, preferenceloader, firmware (>=13.0), me.conorthedev.libappearancecell, ws.hbang.alderis | org.thebigboss.libcolorpicker
+Filename: Files/dotto+/me.conorthedev.dotto+_1.0.6.deb
+Size: 83086
+MD5sum: 4baa06baaf47bc8e6c433539e1adf55a
+SHA1: 4b19a688978ecfaa49e5d4e1b3dedd4de4a9c375
+SHA256: 7031d2fdb24098ec0e6812b43647b351004e744f7d52e2836c115824bb311639
+Section: Tweaks
+Description: Notifications, your style.
+Author: ConorTheDev & Mirac
+Name: dotto+
+
+Package: ru.rejail.cracktool
+Version: 2.2
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 490
+Filename: Files/cracktool/ru.rejail.cracktool_2.2.deb
+Size: 129398
+MD5sum: 7f302b8a29a1ab57c685f8ed54cbb8e1
+SHA1: 215ed36a4fa468b37d4406060e9a9bf468644879
+SHA256: 350ec3e0db6f6b2fd6daa738c04a9c3e0ca89e2f7ce4d24e3b46fd2175ef04c9
+Section: Utilities
+Description: Взлом платных твиков
+Author: julioverne
+Depiction: https://rejail.ru/depiction.php?file=cracktool
+Name: CrackTool
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=cracktool
+
+Package: ru.rejail.cracktool3
+Version: 3.0~beta11
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 336
+Depends: ldid (>= 1:1.2.1), sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils, odcctools
+Filename: Files/cracktool3/ru.rejail.cracktool3_3.0~beta11.deb
+Size: 142916
+MD5sum: b578f4d1b1c7b029679a15a8f3c8ec61
+SHA1: 6b494a685f64a652ca7a79c9db2265d831613e98
+SHA256: cd5c3ebd9b3bcae2af4bfd5550b97a4f2f33ff505a3fbdb47d6a750723122470
+Section: Utilities
+Description: Взлом лицензии некоторых твиков
+Author: julioverne
+Depiction: https://rejail.ru/depiction.php?file=cracktool3
+Name: CrackTool3 (iOS 11)
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=cracktool3
+
+Package: ru.rj.rr
+Version: 0.1.6
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 332
+Depends: mobilesubstrate, com.randy420.tools (>=1.7)
+Replaces: com.randy420.rr
+Filename: Files/removerussian/ru.rj.rr_0.1.6.deb
+Size: 31314
+MD5sum: f20988ad1a37698bb37b40a68357c7aa
+SHA1: 57c8846f93aa211ad3144fe9a11db4ebbdaf57db
+SHA256: fce6d26f41c46fb81423009ce824db2f14c1996a903d7cac58432193e47b299c
+Section: Utilities
+Description: Remove Russian language from tweaks
+Author: Randy420 <randy.skinner@hotmail.com>
+Depiction: https://rejail.ru/depiction.php?file=rr
+Name: Remove Russian Language
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=rr
+
 Package: ultrasn0w
 Version: 1.2.8
 Architecture: iphoneos-arm
@@ -30,4 +158,24 @@ Homepage: http://ultrasn0w.com/
 Description: iPhone Dev Team's iPhone 4, 3G and 3GS software unlock, now with added PwnApple.  Compatible with iPhone 4 baseband 01.59.00 and iPhone 3G/3GS basebands 04.26.08, 05.11.07, 05.12.01, 05.13.04 and 06.15.00!  Thanks to @sherif_hashim and @Oranav for contributing baseband crashes.
 Author: Dev Team <blog@iphone-dev.org>
 Name: ultrasn0w
+
+Package: xyz.willy.zebra
+Version: 1.1.23
+Architecture: iphoneos-arm
+Maintainer: Zebra Team <team@getzbra.com>
+Installed-Size: 14616
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: Files/zebra/xyz.willy.zebra_1.1.23_iphoneos-arm.deb
+Size: 8028528
+MD5sum: 5d6d09a11c45176d54e70f21558baf4f
+SHA1: ad08d45e23dc9b9b5eea33333e9b5cfc124ebb0a
+SHA256: 8e39b1ddd4ee275ce84e8b54d2e04f2ad5a00d681011232efb8487831250cbd0
+Section: Packaging
+Description: A Useful Package Manager
+Tag: compatible::9.0-14.8
+Author: Zebra Team <team@getzbra.com>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+Icon: file:///Applications/Zebra.app/AppIcon60x60@3x.png
+Name: Zebra
+Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
 
