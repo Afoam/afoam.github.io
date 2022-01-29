@@ -1,0 +1,33 @@
+Package: com.artikus.switcherxi
+Version: 1.0.0-2+debug
+Architecture: iphoneos-arm
+Maintainer: ArtikusHG
+Installed-Size: 176
+Depends: mobilesubstrate
+Filename: Files/switcherxi/org.afoam.switcherxi_1.0.0-2+debug_iphoneos-arm.deb
+Size: 7204
+MD5sum: e877befefeb82ea4666c3d172ded0772
+SHA1: b687e9184c7f0ba35eea3ce8e3c6adaf5106241d
+SHA256: 00ae51a2adf6d75ab09f7219b05db0654301b1282ec459083ace4f8e9690a0d6
+Section: Tweaks
+Description: The iOS 11 app switcher for iOS 10 iPhones.
+Author: ArtikusHG
+Name: SwitcherXI
+
+Package: ultrasn0w
+Version: 1.2.8
+Architecture: iphoneos-arm
+Maintainer: Dev Team <blog@iphone-dev.org>
+Depends: firmware (>= 3.0), mobilesubstrate (>= 0.9.3209-1), firmware (<< 5.0) | mobilesubstrate (>= 0.9.3900)
+Conflicts: blacksn0w, yellowsn0w, gsc.wildcat
+Filename: Files/ultrasn0w/ultrasn0w_1.2.8_iphoneos-arm.deb
+Size: 15238
+MD5sum: 11be21a4d635cd8a9d68c81f2616fb03
+SHA1: d860e8717bd5e4d5253296c9fb2058ebcb227884
+SHA256: 287a9439a41e85336d38d45ff1560edf35d2aa09eeb14585c2e4a25328fe31b5
+Section: Utilities
+Homepage: http://ultrasn0w.com/
+Description: iPhone Dev Team's iPhone 4, 3G and 3GS software unlock, now with added PwnApple.  Compatible with iPhone 4 baseband 01.59.00 and iPhone 3G/3GS basebands 04.26.08, 05.11.07, 05.12.01, 05.13.04 and 06.15.00!  Thanks to @sherif_hashim and @Oranav for contributing baseband crashes.
+Author: Dev Team <blog@iphone-dev.org>
+Name: ultrasn0w
+
