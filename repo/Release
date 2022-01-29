@@ -1,0 +1,8 @@
+Origin: Afoam
+Label: Afoam's Repo
+Suite: stable
+Version: 1.0
+Codename: afoamrepo
+Architectures: iphoneos-arm
+Components: main
+Description: Afoam's Illegal Piracy Paradise
