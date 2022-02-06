@@ -1,8 +1,8 @@
 
 body {
 	color: #000000;
-	background-color: #FFFFFF;
-	font-family: sans-serif;
+	background-color: #008888;
+	font-family: verdana;
 }
 
 a:link {
@@ -27,7 +27,7 @@ nav {
 
 section {
   text-align: justify;
-  background-color: #FFFFFF;
+  background-color: #008888;
   font-size: 110%;
   float: right top;
   max-width: 750px;
