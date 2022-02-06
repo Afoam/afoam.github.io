@@ -1,19 +1,79 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<body>
+    <style>
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+         
+        body {
+          text-align: center;
+          background-color: #181818;
+          color: #ffffff;
+          font-family: "Poppins", sans-serif;
+        }
+        .thumb {
+          height: 400px;
+          width: 400px;
+          transition: all 0.2s;
+          object-fit: cover;
+          cursor: pointer;
+        }
+        </style>
+    <title> Official Tall Dusty Experience </title>
+    <link rel="shortcut icon" type="image/png" href="Files/Afoam-Icon.png"/>
 
-<h1 style="text-align:center; font-family:verdana">THE OFFICAIL TALLDUSTY WEBSITE!!!</h1>
+    <body>
+        <h1 style="text-align:center; font-family:verdana">THE OFFICAIL TALLDUSTY WEBSITE!!!</h1>
+        <p style="color:red; text-align:center; font-family:verdana">My first paragraph.
+            <br>
+                <a href="https://example.com">Cydia Repo</a>
+                <a href="https://isntagram.com">Isntagram</a>
+                <a href="https://discord.gg/mcvirgins">Discord server</a>
+                <a href="https://youtube.com/talldusty">YOUTUBE</a>
+            <br>
+        </p>
+            <br>
+            <div class="thumbnail">
+              <img src="Files/talldusty.png" class="thumb">
+           
+              <img src="Files/cows.png" class="thumb">
+           
+              <img src="Files/elf.jpg" class="thumb">
+           
+              <img src="Files/zebra.png" class="thumb">
+           
+              <img src="Files/brazen.png" class="thumb">
+           
+              <img src="Files/julian.JPG" class="thumb">
+           
+            </div>
+          </div>
 
-<p style="color:red; text-align:center; font-family:verdana">My first paragraph.
-<br>
-<a href="https://example.com">Cydia Repo</a>
-<a href="https://isntagram.com">Isntagram</a>
-<a href="https://discord.gg/mcvirgins">Discord server</a>
-<a href="https://youtube.com/talldusty">YOUTUBE</a>
-<br>
-</p>
-
-<img class="center" src="Files/talldusty.png" width="1700" height="600" alt="me when fisheye lens">
-
-</body>
+    </body>
+    <script>
+        const container = document.querySelector(".container");
+        const preview = document.querySelector(".prev");
+        const active = document.querySelectorAll(".thumb");
+         
+        container.addEventListener("click", function (e) {
+          if (e.target.className == "thumb") {
+            preview.src = e.target.src;
+            preview.classList.add("effect");
+         
+            setTimeout(function () {
+              preview.classList.remove("effect");
+            }, 100);
+         
+            active.forEach(function (thumb) {
+              if (thumb.classList.contains("active")) {
+                thumb.classList.remove("active");
+              }
+            });
+         
+            e.target.classList.add("active");
+          }
+        });
+        </script>
 </html>
