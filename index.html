@@ -1,57 +1,111 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
+    <head>
+        <br>
+    </head>
+
     <style type="text/css">
         * {
-          margin: 0;
-          padding: 0;
-          box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            cursor: progress;
         }
+
         body {
-          text-align: center;
-          background-color: white;
-          color: black;
-          font-family: "Helvetica", sans-serif;
-          background-image: url('Files/water.jpg');
+            text-align: center;
+            background-color: #181818;
+            color: white;
+            font-family: "Helvetica", sans-serif;
+            background-image: url('Files/water.jpg');
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
         }
+
         .thumb {
-          height: 400px;
-          width: 400px;
-          transition: all 0.2s;
-          object-fit: cover;
-          cursor: pointer;
+            height: 400px;
+            width: 400px;
+            transition: all 0.2s;
+            object-fit: cover;
         }
         a:link {
-        color: blue;
-        background-color: transparent;
-        text-decoration: none;
+            color: white;
+            background-color: transparent;
+            text-decoration: none;
         }
 
         a:visited {
-        color: blue;
-        background-color: transparent;
-        text-decoration: none;
+            color: white;
+            background-color: transparent;
+            text-decoration: none;
         }
 
         a:hover {
-        color: red;
-        background-color: transparent;
-        text-decoration: underline;
+            color: greenyellow;
+            background-color: transparent;
+            text-decoration: underline;
         }
 
         a:active {
-        color: blue;
-        background-color: transparent;
-        text-decoration: underline;
+            color: blue;
+            background-color: transparent;
+            text-decoration: underline;
         }
-        </style>
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: transparent;
+        }
+        
+        li {
+            float: center;
+            display: inline;
+        }
+
+        li a {
+            display: inline;
+            color: white;
+            background-color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+        }
+
+        li a:hover {
+            background-color: rgba(0, 0, 0, 0.3);
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+        }
+
+        li strong {
+            color: greenyellow;
+            text-decoration: bold;
+            background-color: black;
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+        }
+
+    </style>
+
     <title> Tall Dusty's Homepage </title>
     <link rel="shortcut icon" type="image/png" href="Files/Afoam-Icon.png"/>
 
+    <nav>
+        <ul>
+            <li><strong>Home</strong></li>
+            <li><a href="repo.html">Cydia Repo</a></li>
+            <li><a href="https://linktr.ee/talldusty">Linktree</a></li>
+            <li><a href="https://youtube.com/talldusty">Youtube</a></li>
+        </ul>
+    </nav>
+
     <body>
         <br>
-            <h1 style="text-align:center; font-family:Georgia,serif">Welcome to the official website of...</h1>
+            <h1 style="text-align:center; font-family:Georgia,serif; text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);">Welcome to the official website of...</h1>
                 <p style="text-align:center;"><img src="Files/BurningDusty.gif"></p>
-            <a color:red href="Files/talldusty.png">Click here to learn about RIGHT TO REPAIR!!!</a>
+            <a href="Files/talldusty.png">Click here to learn about RIGHT TO REPAIR!!!</a>
         <br>
             <iframe width="720" height="405"
                 src="https://www.youtube.com/embed/TSr0kG8NLRI">
@@ -68,17 +122,17 @@
                     <img src="Files/julian.JPG" class="thumb">
                 <br>
             </div>
-                    <a href="https://example.com">Cydia Repo</a>
-                        <p>-</p>
-                    <a href="https://isntagram.com">Isntagram</a>
-                        <p>-</p>
-                    <a href="https://discord.gg/mcvirgins">Discord server</a>
-                        <p>-</p>
-                    <a href="https://youtube.com/talldusty">YOUTUBE</a>
-                <br>
           </div>
 
     </body>
+
+    <footer>
+        <br>
+            <p>This interractive webpage uses HTML 2.0</p>
+        <br>
+            <p>© Copyright Theo Kwan 2022. All Rights Reserved</p>
+    </footer>
+
     <script>
         const container = document.querySelector(".container");
         const preview = document.querySelector(".prev");
