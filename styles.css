@@ -84,23 +84,13 @@ li strong {
     background-color: black;
     text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.5);
 }
-container {
-    width: 500px;
-    margin: 0 auto;
-    background-color:darkcyan;
-    text-align: center;
-}
+
 .center {
     margin: auto;
     width: 200px;
     padding: 10px;
 }
-.center1 {
-    margin: auto;
-    width: 156px;
-    height: 156px;
-    padding: 0px;
-}
+
 .footer {
     position: relative;
     left: 0;
@@ -110,11 +100,13 @@ container {
     color: white;
     text-align: center;
 }
+
 .title {
     text-align:center; 
     font-family:Georgia,serif; 
     text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.5);
 }
+
 .divider {
     text-align: center;
 }
