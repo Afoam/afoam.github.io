@@ -39,7 +39,7 @@ a:visited {
 a:hover {
     color: greenyellow;
     background-color: transparent;
-    text-decoration: underline;
+    font-style: italic;
     cursor: url('html/cursor/pointer.cur'), auto;
 }
 
@@ -86,9 +86,10 @@ li strong {
 }
 
 .center {
-    margin: auto;
     width: 200px;
     padding: 10px;
+    margin: auto;
+    padding: 0px;
 }
 
 .footer {
@@ -109,4 +110,10 @@ li strong {
 
 .divider {
     text-align: center;
+}
+
+.witchcraft {
+    position: fixed;
+    left: 0;
+    bottom: 0;
 }
