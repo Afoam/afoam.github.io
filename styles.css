@@ -2,7 +2,7 @@
     margin: 8px;
     padding: 0px;
     box-sizing: border-box;
-    cursor: progress;
+    cursor: url('html/cursor/cursor.cur'), auto;
 }
 
 body {
@@ -26,28 +26,28 @@ a:link {
     color: white;
     background-color: transparent;
     text-decoration: none;
-    cursor: pointer;
+    cursor: url('html/cursor/pointer.cur'), auto;
 }
 
 a:visited {
     color: white;
     background-color: transparent;
     text-decoration: none;
-    cursor: pointer;
+    cursor: url('html/cursor/pointer.cur'), auto;
 }
 
 a:hover {
     color: greenyellow;
     background-color: transparent;
     text-decoration: underline;
-    cursor: pointer;
+    cursor: url('html/cursor/pointer.cur'), auto;
 }
 
 a:active {
     color: yellow;
     background-color: transparent;
     text-decoration: underline;
-    cursor: pointer;
+    cursor: url('html/cursor/pointer.cur'), auto;
 }
 
 ul {
