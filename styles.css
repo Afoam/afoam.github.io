@@ -89,7 +89,12 @@ li strong {
     width: 200px;
     padding: 10px;
     margin: auto;
-    padding: 0px;
+}
+
+.button {
+    width: 200px;
+    padding: 10px;
+    margin: auto;
 }
 
 .footer {
