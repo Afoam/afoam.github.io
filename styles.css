@@ -3,13 +3,13 @@
     padding: 5px;
     cursor: url('html/cursor/cursor.cur'), auto;
     box-sizing: border-box;
+    font-family: "Comic Sans MS", sans-serif;
 }
 
 body {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    font-family: "Serif", serif;
     background-image: url('html/img/Stars-Background2.gif');
     background-blend-mode: darken;
     text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.5);
@@ -108,8 +108,7 @@ li strong {
 }
 
 .title {
-    text-align: center; 
-    font-family: Serif, serif; 
+    text-align: center;  
     text-shadow: 3px 3px 5px rgba(255, 255, 255, 0.5);
 }
 
