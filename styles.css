@@ -10,7 +10,7 @@ body {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    background-image: url('html/img/Stars-Background2.gif');
+    background-image: url('html/img/Stars-Background.gif');
     background-blend-mode: darken;
     text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.5);
     align-items: center;
@@ -125,4 +125,17 @@ li strong {
 .liminalspace {
     text-align: center;
     width: 100%;
+}
+
+.button8831 {
+    height: 62;
+    width: 176;
+    cursor: url('html/cursor/pointer.cur'), auto;
+}
+
+button {
+    padding: 0px;
+    border: 0px;
+    background-color: transparent;
+    cursor: url('html/cursor/pointer.cur'), auto;
 }
