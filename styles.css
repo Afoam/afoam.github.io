@@ -95,6 +95,7 @@ li strong {
     width: 200px;
     padding: 10px;
     margin: auto;
+    background-color:black;
 }
 
 .fivehundo {
@@ -149,4 +150,27 @@ button {
     border: 0px;
     background-color: transparent;
     cursor: url('html/cursor/pointer.cur'), auto;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left {
+    width: 34%;
+}
+
+.middle {
+    width: 33%;
+}
+    
+.right {
+    width: 33%;
 }
