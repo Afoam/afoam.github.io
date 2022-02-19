@@ -1,177 +1,54 @@
 * {
-    margin: 0;
-    padding: 5px;
-    cursor: url('../html/cursor/cursor.cur'), auto;
-    box-sizing: border-box;
-    font-family: "Comic Sans MS", sans-serif;
-}
+    background-blend-mode:darken; background-color:rgba(0,0,0,0.5); background-image:url(../html/img/Stars-Background.gif);
+    font-family:"Comic Sans MS",sans-serif; color:#fff; text-shadow:2px 2px 2px rgba(255,255,255,0.5);
+    cursor:url(../html/cursor/cursor.cur),auto;
+    box-sizing:border-box;
+    margin:auto; padding:5px }
 
 body {
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    background-image: url('../html/img/Stars-Background.gif');
-    background-blend-mode: darken;
-    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.5);
-    align-items: center;
-}
+    align-items:center; text-align:center }
 
-.thumb {
-    height: 200px;
-    width: 200px;
-    transition: all 0.2s;
-    object-fit: cover;
-}
-a:link {
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-    cursor: url('../html/cursor/pointer.cur'), auto;
-}
+/* links */
+ul {background-color:transparent; list-style-type:none; margin:0; padding:0 }
+a:link { background-color:transparent; cursor:url(../html/cursor/pointer.cur),auto }
+a:visited { background-color:transparent }
+a:hover { background-color:transparent; color:#adff2f; font-style:italic }
+a:active {background-color:transparent; color:#ff0; text-decoration:underline }
+li { display:inline; float:center }
+li a { background-color:#000;  color:#fff; display:inline-block; padding:15px; text-align:center; text-decoration:none; text-shadow:2px 2px 2px rgba(255,255,255,0.5) }
+li a:hover { background-color:rgba(0,0,0,0); text-shadow:2px 2px 2px #556b2f }
+li strong { background-color:#000; color:#adff2f; text-decoration:bold; text-shadow:2px 2px 2px #556b2f }
 
-a:visited {
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-    cursor: url('../html/cursor/pointer.cur'), auto;
-}
+hr { border:0; width:600px; height:3px; padding:0; margin-top:20px; margin-bottom:20px; margin-left:auto; margin-right:auto; background:url(../html/img/Divider.gif) 0 0; }
 
-a:hover {
-    color: greenyellow;
-    background-color: transparent;
-    font-style: italic;
-    cursor: url('../html/cursor/pointer.cur'), auto;
-}
+footer {
+    background-color:transparent;
+    bottom:0; left:0;
+    color:#fff;
+    position:relative;
+    text-align:center;
+    width:100% }
 
-a:active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
-    cursor: url('../html/cursor/pointer.cur'), auto;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: transparent;
-}
-
-li {
-    float: center;
-    display: inline;
-}
-
-li a {
-    display: inline-block;
-    color: white;
-    background-color: black;
-    text-align: center;
-    padding: 15px 15px;
-    text-decoration: none;
-    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.5);
-}
-
-li a:hover {
-    background-color: rgba(0, 0, 0, 0);
-    text-shadow: 2px 2px 2px darkolivegreen;
-}
-
-li strong {
-    color: greenyellow;
-    text-decoration: bold;
-    background-color: black;
-    text-shadow: 2px 2px 2px darkolivegreen;
-}
-
-.center {
-    width: 200px;
-    padding: 10px;
-    margin: auto;
-}
-
-.button {
-    width: 200px;
-    padding: 10px;
-    margin: auto;
-    background-color:black;
-}
-
-.fivehundo {
-    width: 500px; 
-    margin: auto;
-}
-
-.songbox {
-    width: 930px;
-    margin: auto;
-    border: 3px dashed yellow;
-}
-
-.footer {
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: transparent;
-    color: white;
-    text-align: center;
-}
+/* columns */
+.column { float:left; width:50% }
+.row:after { clear:both; content:""; display:table }
+.left { width:33% }
+.middle { width:34% }
+.right { width:33% }
 
 .title {
-    text-align: center;  
-    text-shadow: 3px 3px 5px rgba(255, 255, 255, 0.5);
-    white-space: nowrap;
-}
+    text-align:center;
+    white-space:nowrap }
 
-.divider {
-    text-align: center;
-}
+/* buttons */
+.retrobutton {
+    cursor:url(../html/cursor/pointer.cur),auto;
+    height:62px; width:176px }
+.linkbutton {
+    background-color:#000;
+    margin:auto; padding:10px;
+    width:200px }
 
 .witchcraft {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-}
-
-.liminalspace {
-    text-align: center;
-    width: 100%;
-}
-
-.button8831 {
-    height: 62;
-    width: 176;
-    cursor: url('../html/cursor/pointer.cur'), auto;
-}
-
-button {
-    padding: 0px;
-    border: 0px;
-    background-color: transparent;
-    cursor: url('../html/cursor/pointer.cur'), auto;
-}
-
-.column {
-    float: left;
-    width: 50%;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.left {
-    width: 34%;
-}
-
-.middle {
-    width: 33%;
-}
-    
-.right {
-    width: 33%;
-}
+    bottom:0; left:0;
+    position:fixed }
