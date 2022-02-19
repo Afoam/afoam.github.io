@@ -97,6 +97,11 @@ li strong {
     margin: auto;
 }
 
+.songbox {
+    width: 930px;
+    margin: auto;
+}
+
 .footer {
     position: relative;
     left: 0;
