@@ -100,6 +100,7 @@ li strong {
 .songbox {
     width: 930px;
     margin: auto;
+    border: 3px dashed yellow;
 }
 
 .footer {
